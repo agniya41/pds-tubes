@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-import matplotlib.pyplot as mt  # tidak terpake
 import plotly.express as px
 from collections import Counter
 
@@ -99,3 +98,4 @@ def app():
             data=csv,
             mime="text/csv"
         )
+
